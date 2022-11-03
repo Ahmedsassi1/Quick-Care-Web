@@ -172,7 +172,7 @@ let register = (account) => {
 
           </div>
 
-          <MDBBtn  className='me-2'  size='lg' onClick={((e) => {e.preventDefault(); register(state)})}>Sign up</MDBBtn>
+          <button  className='me-2'  size='lg' aria-pressed="true" onClick={((e) => {e.preventDefault(); register(state)})}>Sign up</button>
 
         </MDBTabsPane>
 
